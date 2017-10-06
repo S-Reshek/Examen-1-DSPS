@@ -1,0 +1,85 @@
+!SESSION 2017-10-05 19:03:21.199 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_111
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_ES
+Command-line arguments:  -os win32 -ws win32 -arch x86 -data D:\Embebidos\Examen1
+
+!ENTRY org.eclipse.ui 4 4 2017-10-05 19:03:25.250
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Duplicate id found: org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator
+
+!ENTRY org.eclipse.ui 4 4 2017-10-05 19:03:25.250
+!MESSAGE Plugin org.eclipse.cdt.ui, extension org.eclipse.ui.decorators, id org.eclipse.cdt.internal.ui.CustomBuildSettingsDecorator: Unknown extension tag found: decorator
+
+!ENTRY MCUXpresso IDE 4 -1 2017-10-05 19:07:46.150
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:263)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at com.nxp.mcuxpresso.core.datamodels.providers.SDKManifestProvider.doCreateProject(SDKManifestProvider.java:1973)
+	at com.nxp.mcuxpresso.core.datamodels.providers.SDKManifestProvider.createProject(SDKManifestProvider.java:1286)
+	at com.nxp.mcuxpresso.core.datamodels.providers.SDKManifestProvider.createDeviceProject(SDKManifestProvider.java:709)
+	at com.nxp.mcuxpresso.core.datamodels.ui.wizards.SDKWizard.doFinish(SDKWizard.java:201)
+	at com.nxp.mcuxpresso.core.datamodels.ui.wizards.AbstractSDKWizard$1.run(AbstractSDKWizard.java:70)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: OK
+Contains: D:\Embebidos overlaps the workspace location: D:\Embebidos\Examen1
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2017-10-05 19:07:46.165
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2017-10-05 19:07:46.165
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2017-10-05 19:07:46.165
+!MESSAGE D:\Embebidos overlaps the workspace location: D:\Embebidos\Examen1
+
+!ENTRY MCUXpresso IDE 4 4 2017-10-05 19:07:46.165
+!MESSAGE Invalid project description.
+!STACK 1
+org.eclipse.core.internal.resources.ResourceException: Invalid project description.
+	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:263)
+	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+	at com.nxp.mcuxpresso.core.datamodels.providers.SDKManifestProvider.doCreateProject(SDKManifestProvider.java:1973)
+	at com.nxp.mcuxpresso.core.datamodels.providers.SDKManifestProvider.createProject(SDKManifestProvider.java:1286)
+	at com.nxp.mcuxpresso.core.datamodels.providers.SDKManifestProvider.createDeviceProject(SDKManifestProvider.java:709)
+	at com.nxp.mcuxpresso.core.datamodels.ui.wizards.SDKWizard.doFinish(SDKWizard.java:201)
+	at com.nxp.mcuxpresso.core.datamodels.ui.wizards.AbstractSDKWizard$1.run(AbstractSDKWizard.java:70)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Contains: OK
+Contains: D:\Embebidos overlaps the workspace location: D:\Embebidos\Examen1
+!SUBENTRY 1 org.eclipse.core.resources 4 77 2017-10-05 19:07:46.165
+!MESSAGE Invalid project description.
+!SUBENTRY 2 unknown 0 0 2017-10-05 19:07:46.165
+!MESSAGE OK
+!SUBENTRY 2 org.eclipse.core.resources 4 77 2017-10-05 19:07:46.165
+!MESSAGE D:\Embebidos overlaps the workspace location: D:\Embebidos\Examen1
+!SUBENTRY 1 MCUXpresso IDE 4 0 2017-10-05 19:07:46.165
+!MESSAGE 	at org.eclipse.core.internal.resources.Project.checkDescription(Project.java:169)
+!SUBENTRY 1 MCUXpresso IDE 4 0 2017-10-05 19:07:46.165
+!MESSAGE 	at org.eclipse.core.internal.resources.Project.assertCreateRequirements(Project.java:53)
+!SUBENTRY 1 MCUXpresso IDE 4 0 2017-10-05 19:07:46.165
+!MESSAGE 	at org.eclipse.core.internal.resources.Project.create(Project.java:263)
+!SUBENTRY 1 MCUXpresso IDE 4 0 2017-10-05 19:07:46.165
+!MESSAGE 	at org.eclipse.core.internal.resources.Project.create(Project.java:247)
+!SUBENTRY 1 MCUXpresso IDE 4 0 2017-10-05 19:07:46.165
+!MESSAGE 	at com.nxp.mcuxpresso.core.datamodels.providers.SDKManifestProvider.doCreateProject(SDKManifestProvider.java:1973)
+!SUBENTRY 1 MCUXpresso IDE 4 0 2017-10-05 19:07:46.165
+!MESSAGE 	at com.nxp.mcuxpresso.core.datamodels.providers.SDKManifestProvider.createProject(SDKManifestProvider.java:1286)
+!SUBENTRY 1 MCUXpresso IDE 4 0 2017-10-05 19:07:46.165
+!MESSAGE 	at com.nxp.mcuxpresso.core.datamodels.providers.SDKManifestProvider.createDeviceProject(SDKManifestProvider.java:709)
+!SUBENTRY 1 MCUXpresso IDE 4 0 2017-10-05 19:07:46.165
+!MESSAGE 	at com.nxp.mcuxpresso.core.datamodels.ui.wizards.SDKWizard.doFinish(SDKWizard.java:201)
+!SUBENTRY 1 MCUXpresso IDE 4 0 2017-10-05 19:07:46.165
+!MESSAGE 	at com.nxp.mcuxpresso.core.datamodels.ui.wizards.AbstractSDKWizard$1.run(AbstractSDKWizard.java:70)
+!SUBENTRY 1 MCUXpresso IDE 4 0 2017-10-05 19:07:46.165
+!MESSAGE 	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+!SUBENTRY 1 MCUXpresso IDE 4 0 2017-10-05 19:07:46.165
+!MESSAGE Contains: OK
+!SUBENTRY 1 MCUXpresso IDE 4 0 2017-10-05 19:07:46.165
+!MESSAGE Contains: D:\Embebidos overlaps the workspace location: D:\Embebidos\Examen1
+
+!ENTRY org.eclipse.cdt.core 1 0 2017-10-05 19:08:07.213
+!MESSAGE Indexed 'Exam1' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
